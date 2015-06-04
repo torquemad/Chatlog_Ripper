@@ -5,4 +5,4 @@ This very simple program to help anyone rip URL's out of Slack, IRC, etc (Melb W
 
 Notes:
 - This program will return **ALL** urls. If you dont want .jpg, .png, .gif etc, just set up an if condition in the logs.each_line block.
-- If you get the error "in `scan': invalid byte sequence in UTF-8 (ArgumentError)" , simple parse your text into something that will convert it to UTF-8 (such as http://pastebin.com/)
+- If you get the error "in `scan': invalid byte sequence in UTF-8 (ArgumentError)" , simply parse your text logs into something that will do the conversion to UTF-8 (such as http://pastebin.com/). I will fix this in the future.
