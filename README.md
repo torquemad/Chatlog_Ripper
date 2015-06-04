@@ -3,4 +3,6 @@ In WDI, we share everything. Plenty of awesome resouces will inevitably be forgo
 
 This very simple program to help anyone rip URL's out of Slack, IRC, etc (Melb WDI2 Slack channel had more than 15 thousand lines of text (ugh..)).
 
-Please note this will return **ALL** urls. If you dont want .jpg, .png, .gif etc, just set up an if condition in the logs.each_line block.
+Notes:
+- This program will return **ALL** urls. If you dont want .jpg, .png, .gif etc, just set up an if condition in the logs.each_line block.
+- If you get the error "in `scan': invalid byte sequence in UTF-8 (ArgumentError)" , simple parse your text into something that will convert it to UTF-8 (such as http://pastebin.com/)
